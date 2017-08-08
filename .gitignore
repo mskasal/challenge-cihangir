@@ -1,0 +1,11 @@
+# intelliJ
+.idea
+
+# Production bundle
+dist/*
+
+# node modules
+node_modules
+
+# test stuff
+test/coverage

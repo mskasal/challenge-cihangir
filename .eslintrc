@@ -1,0 +1,13 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "react/jsx-filename-extension": 0,
+    "key-spacing": "off",
+    "jsx-quotes": [2, "prefer-single"],
+    "object-curly-spacing": [2, "always"],
+    "comma-dangle": "off"
+  },
+  "env": {
+    "jest": true
+  }
+}
