@@ -5,7 +5,6 @@ import { createStructuredSelector } from 'reselect';
 
 import { makeSelectItems } from '../selectors/itemSelector';
 import { fetchItems } from '../actions';
-import {  } from '../reducers/items';
 import { TreeList } from './TreeList';
 
 class Tree extends Component { // eslint-disable-line react/prefer-stateless-function

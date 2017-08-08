@@ -1,4 +1,10 @@
-Available npm commands
+### Start
+```
+npm install
+npm run develop
+```
+
+###Available npm commands
 
 npm test
 npm run test:coverage
@@ -6,9 +12,8 @@ npm run develop
 npm run prod
 npm run clean
 
-
 ###Notes about challenge
--------------------------
+
 What did I do?
 - Created a component which can show a tree list which
 theoretically can contain/handle 'n elements'.

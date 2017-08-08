@@ -13,7 +13,7 @@ class TreeList extends Component { // eslint-disable-line react/prefer-stateless
 
     // dummy state
     this.state = {
-      a: 0
+      isFiltered: false
     };
   }
 
@@ -32,7 +32,7 @@ class TreeList extends Component { // eslint-disable-line react/prefer-stateless
      * I tried forceUpdate() failed!
     */
     this.setState({
-      a: 1
+      isFiltered: true
     });
   }
 
