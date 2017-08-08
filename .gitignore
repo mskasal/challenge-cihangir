@@ -2,7 +2,6 @@
 .idea
 
 # Production bundle
-!dist
 dist/*
 
 # node modules
@@ -10,4 +9,3 @@ node_modules
 
 # test stuff
 test/coverage
-!test
